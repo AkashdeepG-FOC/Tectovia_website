@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+    }
+.header{
+
+height: 120px;
+width: 1600px;
+padding: 2rem 9%;
+
+background-color: #303236;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+.logo{
+    font-size: 2rem;
+color: white;
+font-weight: 600;
+cursor: default;
+}
+.navbar a {
+    font-size: 1rem;
+    color: white;
+    margin-left: 5rem;
+    transition: .3s;
+    }
+
+.title{
+    display: flex;
+    padding: 30px;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+.title1{
+    width: 400px;
+    margin-left: 450px;
+
+}
+.img1 img{
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 350px;
+    height: 200px;
+}
+.title h1{
+    color: #4B4E53;
+    font-weight: 100;
+}
+.underline-three {
+    position: relative;
+  }
+
+  .underline-three::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -7px; /* Adjust this value to move the underline up or down */
+    left: 0;
+    width: 100%; /* Full width of the container */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: #4B4E53; /* Adjust the color of the underline */
+  }
+.title h3{
+    margin-top: 30px;
+}
+.title2 p{
+    margin-top: 20px;
+}
+.title2{
+    display: flex;
+    border: solid;
+    background-color: #98C1D9;
+    border-color: #98C1D9;
+    margin-top: 200px;
+    height: 400px;
+}
+.para1{
+    padding: 60px;
+    margin-top: -20px;
+    margin-left: 150px;
+    width: 600px;
+}
+.img2 img{
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 400px;
+    height: 200px;
+}
+.title3{
+    display: flex;
+    margin-top: 150px;
+}
+.para2{
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.img3 img{
+    width: 500px;
+    margin-left: 150px;
+}
+.title4 p {
+    margin-top: 20px;
+    width: 600px;
+    font-weight: 600;
+}
+.title4{
+    margin-top: 240px;
+    display: flex;
+    border: solid;
+    background-color: #06D6A0;
+    border-color: #06D6A0;
+}
+.img4 img{
+    margin-left: 240px;
+    margin-top: 40px;
+}
+.para3{
+    margin-left: 300px;
+    margin-top: 190px;
+}
+.title5{
+    display: flex;
+}
+.img5 img{
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 500px;
+    height: 300px;
+}
+.para3 h2{
+    margin-top: 10px;
+}
+.title6{
+    display: flex;
+}
+.para4{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.img6 img{
+    width: 500px;
+    height: 300px;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+.title7{
+    margin-top: 120px;
+    color:#fff;
+    border: solid;
+    background:linear-gradient(#202373,#4845E4);
+    height: 300px;
+    
+}
+.title7{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+   
+
+}
+.point1{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 25px;
+    color: #ffffff;
+    flex: 1; /* Equal width, adjust as needed */
+    margin-right: 210px; /* Optional: Add some space between the points */
+    margin-bottom: 30px; /* Optional: Add some space between rows */
+    background-color: transparent;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.benifits{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 27px;
+}

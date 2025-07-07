@@ -1,0 +1,147 @@
+@import url(root.css);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+}
+
+.dropdown {
+    overflow: hidden;
+  }
+  
+.dropdown .dropbtn {
+    font-size: 16px; 
+    font-family: var(--primary-font);
+    font-weight: 500; 
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    padding: 10px 15px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    color: aqua;
+    background-color: rgb(29, 0, 80);
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: rgb(29, 0, 80);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    border-radius: 0px 0px 0px 0px;
+    background-color: aqua;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.signbtn {
+    border: 1px solid aqua;
+    border-radius: 9px 9px 9px 9px;
+    background-color: rgb(217, 0, 255);
+}
+
+.signbtn a {
+    color: white;
+}
+
+.signbtn:hover {
+    color: black;
+    background: aqua;
+    border: 1px solid black;
+}
+
+.signbtn a:hover {
+    color: black;
+}
+
+/* nav bar */
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    z-index: 1;
+}
+
+nav ul {
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    height: 30px;
+    margin-bottom: 10px;    
+}
+
+nav a {
+    font-style: var(--primary-font);
+    font-weight: 500;
+    transition-duration: 250ms;
+    color: black;
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    height:40px;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover {
+    background: transparent;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+nav ul li a:hover,
+nav ul li a.dog
+{
+    font-size: 1.2rem;
+    background: transparent;
+    color: rgb(23, 0, 98);
+}
+
+/* Responsive */
+@media (max-width: 769px){
+    .hideOn{
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+
+    .dropdown-content a {
+        font-size: 12px;
+    }
+}

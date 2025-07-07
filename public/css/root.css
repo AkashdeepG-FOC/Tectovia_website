@@ -1,0 +1,19 @@
+:root {
+    --primary-color: rgb(255, 0, 128);
+    --primary-color-light: rgb(53, 0, 100);
+    
+    --primary-color: rgb(255, 0, 128);
+    --primary-color-light: rgb(53, 0, 100);
+    
+    --secondary-color: #00ffdd;
+    --gradient-color: linear-gradient( to left top,var(--primary-color),var(--primary-color-light));
+
+    --primary-text: #000;
+    --secondary-text: #fff;
+
+    --heading-font: 'Franklin Gothic Medium';
+    --primary-font: "Poppins", sans-serif;
+
+    --heading-size: 1rem;
+    --para-size: 1rem;
+}
